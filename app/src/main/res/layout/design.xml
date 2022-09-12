@@ -33,7 +33,7 @@
                 app:srcCompat="@drawable/ic_launcher_background" />
 
             <TextView
-
+                
                 android:id="@+id/textBaslik"
                 android:layout_width="112dp"
                 android:layout_height="23dp"
