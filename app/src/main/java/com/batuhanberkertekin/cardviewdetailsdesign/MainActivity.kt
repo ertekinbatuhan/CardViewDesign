@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        recyclerView.layoutManager = StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
+
 
         val got = Dizi("Game of Thrones",99.9,R.drawable.gotnew)
         val house=Dizi("House of Dragon",89.9,R.drawable.houseofdargonnew)
@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
         arrayList.add(power)
         arrayList.add(witcher)
 
+        recyclerView.layoutManager = StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL)
         adapter = DiziAdapter(this,arrayList)
 
         recyclerView.adapter = adapter
