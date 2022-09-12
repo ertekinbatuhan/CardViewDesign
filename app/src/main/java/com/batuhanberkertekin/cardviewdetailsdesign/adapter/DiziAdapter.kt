@@ -18,7 +18,7 @@ class DiziAdapter( private val context : Context , private val myList :List<Dizi
 
 
 
-       //alt class 
+       //alt class
     inner  class CardDesignObject(view :View) : RecyclerView.ViewHolder(view){
 
 
